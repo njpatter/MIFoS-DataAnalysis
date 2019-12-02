@@ -127,7 +127,7 @@ kable(dataSubsetComparison, caption = "Comparison of Original, Train, Test, and 
 ```
 
 ### The Challenge: Better Than Average
-To determine accuracy or relative improvement for each model developed in this analysis, the mean dragDelta (x-direction) value was used as the baseline approach for prediction. 
+To determine accuracy or relative improvement for each model developed in this analysis, the mean dragDelta (x-direction) value was used as the baseline approach for prediction on the test set, resulting in the following RMSE: 
 
 \begin{center}
 $RMSE_{mean}  = `r modelPerformance[1, 2]`$ 
